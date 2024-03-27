@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import ReactDOM from "react-dom/client";
 
 function Timer() {
   const [count, setCount] = useState(0);
@@ -12,6 +13,5 @@ function Timer() {
   return <h1>I've rendered {count} times!</h1>;
 }
 
-
-export default Timer();
-
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<Timer />);
