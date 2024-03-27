@@ -1,0 +1,8 @@
+REACT:
+
+- to execute the base react file it must be called index.js and
+        be in the 'src' folder
+
+
+- files should have a home folder that's descriptive, but when being
+        executed, they can be moved to the src folder
