@@ -1,0 +1,114 @@
+React: Core Features & Behaviors
+
+- Components
+  Reusable UI blocks, either as functions or classes. Encapsulate logic, structure, and style for parts of your UI.
+
+- JSX
+  A syntax extension for JavaScript that lets you write HTML-like code inside JS files. Makes UI code readable and declarative.
+
+- Props
+  Inputs to components. Pass data and callbacks from parent to child, enabling dynamic and reusable components.
+
+- State
+  Local, mutable data managed within a component. Used for dynamic UI updates and user interactions.
+
+- useState
+  A hook for adding state to function components. Lets you store and update values over time.
+
+- useEffect
+  A hook for running side effects (data fetching, subscriptions, etc.) after render. Controls lifecycle events in function components.
+
+- useContext
+  Provides global state accessible by any component in the tree. Avoids prop drilling for shared data.
+
+- useReducer
+  A hook for managing complex state logic with reducers, similar to Redux but local to a component.
+
+- useRef
+  Stores mutable values that persist across renders. Useful for accessing DOM nodes or keeping values without causing re-renders.
+
+- useMemo/useCallback
+  Memoize values or functions to optimize performance and avoid unnecessary recalculations or re-renders.
+
+- Events
+  Handle user interactions like clicks, input changes, and more using event handlers (e.g., onClick, onChange).
+
+- Conditional Rendering
+  Show or hide UI elements based on conditions using if statements or ternary operators.
+
+- Lists
+  Render arrays of data as lists using map(). Each item becomes a component or element.
+
+- Keys
+  Assign unique keys to list items for efficient rendering and updating by React.
+
+- Fragments
+  Group multiple elements without adding extra nodes to the DOM using <></> or React.Fragment.
+
+- Portals
+  Render components outside their parent DOM hierarchy, useful for modals and overlays.
+
+- Error Boundaries
+  Catch JavaScript errors in child components and display fallback UI instead of crashing the app.
+
+- Suspense
+  Handle lazy loading of components or data, showing fallback content while waiting.
+
+- Context API
+  Create and provide global data accessible by any component, simplifying state sharing.
+
+- Custom Hooks
+  Encapsulate reusable logic in functions that use React hooks. Share behavior across components.
+
+- Forward Refs
+  Pass refs through components to access DOM nodes or child component instances.
+
+- StrictMode
+  A tool for highlighting potential problems in an app during development. Does not affect production.
+
+- Children
+  Special prop for passing nested elements/components to a parent, enabling flexible layouts.
+
+- PropTypes/TypeScript
+  Type checking for props to catch bugs and improve code reliability. Use PropTypes or TypeScript.
+
+- Server Components
+  Render components on the server for faster initial load and SEO benefits.
+
+- Concurrent Mode
+  Experimental feature for async rendering, improving responsiveness and user experience.
+
+- Hydration
+  Attach React event listeners to server-rendered HTML, enabling interactivity after SSR.
+
+- Reconciliation
+  React's process for efficiently updating the DOM by comparing virtual DOM trees.
+
+- Virtual DOM
+  An in-memory representation of the UI. Enables fast diffing and updates to the real DOM.
+
+- Lifecycle
+  Phases of a component: mount, update, unmount. Manage side effects and cleanup.
+
+- Higher-Order Components (HOC)
+  Functions that wrap components to add extra behavior or data.
+
+- Render Props
+  Technique for sharing code between components using a function prop to determine what to render.
+
+- Forms
+  Manage user input with controlled (state-driven) or uncontrolled (ref-driven) components.
+
+- Animations
+  Add motion to UI using CSS or JavaScript libraries.
+
+- Routing
+  Navigate between pages/views using libraries like react-router.
+
+- Testing
+  Verify component behavior using tools like Jest and React Testing Library.
+
+- DevTools
+  Debug and inspect React apps using browser extensions.
+
+Use these features to build, update, and manage interactive UIs efficiently.
